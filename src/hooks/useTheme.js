@@ -4,6 +4,6 @@ export default function(){
     if(app.className == "dark"){
         app.className = "light"
     }else{
-        app.className = "dark"
+        app.className = "dark";
     }
 }
