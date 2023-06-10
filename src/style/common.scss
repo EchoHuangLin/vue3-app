@@ -1,0 +1,24 @@
+:root{
+    #app.dark{
+        --bgColor:rgb(63, 19, 19);
+        --color:white;
+        --van-grid-item-content-background: rgb(63, 19, 19);
+        --van-tab-text-color:white;
+        --van-tabbar-background: rgb(63, 19, 19);
+        --van-tabbar-item-text-color:white;
+    }
+    #app.light{
+        --bgColor:white;
+        --van-grid-item-content-background: white;
+        --color:rgb(63, 19, 19);
+        --van-tab-text-color:rgb(63, 19, 19);
+        --van-tabbar-background: white;
+        --van-tabbar-item-text-color:rgb(63, 19, 19);
+    }
+}
+::-webkit-scrollbar { display: none;}
+
+#nprogress .bar {
+    background-color: red !important;
+    height: 3px !important;
+  }
